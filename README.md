@@ -9,3 +9,22 @@ received a message is notified, and the second event is dispatched to the second
 - damn simple.
 - no deps! :P
 - 100% coverage!
+
+# usage
+
+```
+var Emitter = require('qevented');
+
+var ee = new Emitter();
+
+ee.on('blah', function(val) {
+  console.log(val); // => 5
+});
+
+ee.on('blah', function(val) {
+  console.log(val); // => 4
+});
+
+ee.emit('blah', 5);
+ee.emit('blah', 4);
+```
