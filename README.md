@@ -12,7 +12,7 @@ received a message is notified, and the second event is dispatched to the second
 
 # usage
 
-```
+```js
 var Emitter = require('qevented');
 
 var ee = new Emitter();
