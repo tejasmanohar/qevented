@@ -1,6 +1,6 @@
 {
   "name": "qevented",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "unidirectional, queued take at javascript (node, browser) event emitters.",
   "main": "lib/index.js",
   "scripts": {
